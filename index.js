@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+import { getDistance } from './distance.js';
 
 //allow cors
 app.use(function(req, res, next) {
