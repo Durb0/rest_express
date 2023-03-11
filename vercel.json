@@ -7,13 +7,14 @@
       }
     ],
     "routes": [
-      {
-        "src": "/",
-        "dest": "/index.js"
-      },
+      
         {
             "src": "/distance",
             "dest": "routes/distance.js"
+        },
+        {
+            "src": "/",
+            "dest": "/index.js"
         }
     ]
   }
