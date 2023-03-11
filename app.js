@@ -13,7 +13,7 @@ var distanceRouter = require('./routes/distance');
 var app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:4200',
+  origin: '*',
 };
 
 app.use(cors(corsOptions));
